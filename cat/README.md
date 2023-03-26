@@ -1,0 +1,51 @@
+# cat - command
+
+### show all content of this file
+```
+ cat file.txt
+```
+
+### Write some thing in this file & Press ctrl + c to save 
+```
+cat > file.txt
+```
+
+### Add new line and write some thing in this file & Press ctrl + c to save 
+```
+cat >> file.txt
+```
+
+### Concatinate two file data and store it another file 
+```
+cat first_filename.txt second_file.txt > final_file.txt
+```
+
+### Previous file content and letest content add 
+```
+cat file.txt second.txt >> final.txt
+```
+
+### Show the file content in Upper case
+```
+cat file.txt | tr a-z A-Z
+```
+
+### Show The file content in lower case
+```
+cat file.txt | tr A-Z a-z
+```
+
+### The file content convert into Upper case and store it another file
+```
+cat file.txt | tr a-z A-Z > upper.txt
+```
+
+### The file content convert into Lower case and store it another file
+```
+cat file.txt | tr A-Z a-z > lower.txt
+```
+
+### Show all file content in repective order 
+```
+cat first.txt second.txt third.txt
+```
