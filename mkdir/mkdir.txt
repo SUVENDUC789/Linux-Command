@@ -1,0 +1,8 @@
+create a folder
+mkdir folder
+
+If folder exists then create subfolder Otherwise through error directory not found error
+mkdir folder/subfolder
+
+If parent folder not exists then create folder and also create subfolder
+mkdir -p folder/subfolder
