@@ -1,0 +1,26 @@
+# ls - Command
+
+### List all directory and file 
+```
+ls 
+```
+### List all hiden file and folder
+```
+ls -a
+```
+
+### list all folder and file (like all permission & Size  & Date time of latest update of file)
+```
+ls -l
+```
+
+
+### list all Hidden folder and file (like all permission & Size  & Date time of latest update of file)
+```
+ls -al
+```
+
+### List all file and folder root directory -> Sub directory (Look like Recursivly)
+```
+ls -R
+```
