@@ -1,0 +1,11 @@
+# cp - Command
+
+### Copy one file content to another file 
+```
+cp original.txt copy.txt
+```
+
+### Copy file into a another folder
+```
+cp data.txt folder/copy_.txt
+```
