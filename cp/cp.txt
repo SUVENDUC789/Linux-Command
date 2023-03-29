@@ -4,3 +4,5 @@ cp original.txt copy.txt
 Copy file into a another folder
 cp data.txt test/copy_.txt
 
+You want to copy folder & Paste it Then use cp -R command
+cp -R folder1/ folder2

@@ -9,3 +9,7 @@ cp original.txt copy.txt
 ```
 cp data.txt folder/copy_.txt
 ```
+### Copy folder and Paste it another folder or Path
+```
+cp -R folder1/ folder2/
+```
