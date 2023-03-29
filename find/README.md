@@ -1,0 +1,59 @@
+# find - command
+
+### find all in present directory
+```
+find .
+```
+
+### find all in parent directory
+```
+find ..
+```
+
+### find particular directory
+```
+find folder/
+```
+
+### find all directory in present directory
+```
+find . -type d
+```
+
+### find all file in present directory
+```
+find . -type f
+```
+
+
+### find particular file
+```
+find . -type f -name "find.txt"
+```
+
+
+### find particular folder
+```
+find . -type d -name "cp"
+```
+
+
+### find all text file in current folder
+```
+find . -type f -name "*.txt"
+```
+
+### find all file in 20 min ago modification
+```
+find . -type f -mmin -20
+```
+
+### find all parent folder maxdepth 1
+```
+find ../ -type d -maxdepth 1
+```
+
+### show all 2k size file & folder
+```
+find . -size +2k
+```
