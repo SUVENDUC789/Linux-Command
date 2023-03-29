@@ -1,0 +1,27 @@
+# head , tail & diff - command
+
+### first 10 line show on this file (default value = 10)
+```
+head file.txt
+```
+
+### first 5 line show on this file
+```
+head -n 5 file.txt
+```
+
+### Last 10 line show on this file (default value = 10)
+```
+tail file.txt
+```
+
+### last 2 line show on this file
+```
+tail -n 2 file.txt
+```
+
+
+### Comparing two file content
+```
+diff file2.txt file.txt
+```
