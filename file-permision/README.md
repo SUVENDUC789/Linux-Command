@@ -1,0 +1,22 @@
+## All about file permission in Linux
+
+
+### Change Permission of user, group, other & All permission are Read, Write & Execute
+```
+chmod u=rwx,g=r,o=w hello.txt
+```
+
+### No one user can read,write & execute this file Except root user.
+```
+chmod 000 hello.txt
+```
+
+### Change the ownership of this file
+```
+sudo chown root hello.txt
+```
+
+### who is the current user
+```
+whoami
+```
