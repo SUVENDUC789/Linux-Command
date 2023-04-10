@@ -29,3 +29,7 @@ history | grep "ls"
 ```
 history | grep "cat"
 ```
+## find all word in text file
+```
+grep -P "\w" name.txt
+```
